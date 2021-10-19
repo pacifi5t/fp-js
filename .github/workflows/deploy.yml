@@ -15,8 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Change base path
-        uses: nelonoel/branch-name@v1.0.1
-        run: bash ./scripts/change_name.sh
+        run: bash ./scripts/change_base.sh
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
