@@ -1,0 +1,1 @@
+sed -i "s/base\: \"\/\"/base\: \"\/fp-js\/${BRANCH_NAME}\/\"/" ./src/.vuepress/config.js
