@@ -32,4 +32,3 @@ If you are doing your assignment or you want to add something to the repo, pleas
 3. Get SH!T done
 4. Create a pull request to merge with dev, link it with issue
 5. Wait for approvement :P
-6. Repeat steps 4 and 5 for the master branch
