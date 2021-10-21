@@ -2,7 +2,7 @@
 
 This is a repository for projects and programs related to Functional Programming class. It contains:
 
-- [learn-js](https://github.com/pacifi5t/fp-js/tree/master/learn-js) - a small & simple platform to learn JavaScript
+- [learn-js](https://github.com/pacifi5t/fp-js/tree/master/learn-js) - a small & simple platform to learn JavaScript [(_link_)](https://pacifi5t.github.io/fp-js/master)
 - Small training programms written with F#
 
 ## Table of contents
