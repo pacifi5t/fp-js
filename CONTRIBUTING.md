@@ -8,9 +8,8 @@
 
 ## Branches
 
-- `master` - main branch, represents current production state of the project ([deployed here](https://pacifi5t.github.io/fp-js/master))
-  Merge only `dev` with this branch via pull requests
-- `dev` - development branch, merge your branches with it via pull requests ([deployed here](https://pacifi5t.github.io/fp-js/dev))
+- `master` - represents current production state of the project ([deployed here](https://pacifi5t.github.io/fp-js/master))
+- `dev` - main development branch, merge your branches with it via pull requests ([deployed here](https://pacifi5t.github.io/fp-js/dev))
 - `gh-pages` - only for deployments, managed automatically
 - _Other branches_ - those a created for each task/bugfix. See [branch naming](#branch-naming) to avoid misunderstandings and unnecessary questions
 
