@@ -1,11 +1,13 @@
 # Mathematics in JavaScript
 
-## Everybody loves math 
+## Everybody loves math
+
 Okay, maybe not. But none of us can deny that math is a fundamental part of life and IT-sphere in particular. This is especially true when we are learning to program JavaScript (or any other language) — so much of what we do relies on processing numerical data, calculating new values, and so on, that you won't be surprised to learn that JavaScript has a full-featured set of math functions available.
 
 This article discusses only the basic parts on the level of 11-th school (lyceum or gimnasium) grade.
 
 ## Types of numbers
+
 In programming we use different terms to describe different types of decimal numbers, for example:
 
 * Integers are floating-point numbers without a fraction. They can either be positive or negative, e.g. `10`, `400`, or `-5`.
@@ -30,10 +32,11 @@ Well, _phew_, we have discussed numbers! Wait, is a number this string: `'123'`?
 
 ## Parsing and type conversions
 
-> ## Jokes are good, aren't they?
+> ### Jokes are good, aren't they?
+
 > This is one of the most valuable topics in JS. It produces so many jokes. _A lot of jokes_. ___TELL ME ONCE AGAIN ABOUT `'1' + 1`___
 >
-> ## (c) Herman Mossur
+> ### (c) Herman Mossur
 
 Yes, JS has very _interesting_ conversions that you will use. Sometimes you might end up with a number that is stored as a string type, which makes it difficult to perform calculations with it. This most commonly happens when data is entered into a form input, and the input type is text. There is a way to solve this problem — passing the string value into the Number() constructor to return a number version of the same value.
 
@@ -61,14 +64,15 @@ There are some numbers, that are used literally everywhere. They are called **co
 
 ## Power
 
-> ## Misunderstandings
+> ### Misunderstandings
+
 > To achieve total power over world, you need to summon the _Godzilla_
 >
-> ## (c) Herman Mossur
+> ### (c) Herman Mossur
 
 A power, or a _exponentiation_, is a repeated multiplication. `5`&#179; = `5 * 5 * 5`, where 5 is a _base_ and 3 is an _exponent_.
 
-So, the function `Math.pow(b, e)` is an easy way to perform this operation. It's first parameter `b` can be any number, second - `e` - also any number. 
+So, the function `Math.pow(b, e)` is an easy way to perform this operation. It's first parameter `b` can be any number, second - `e` - also any number.
 
 Yes, you might remember that _`√n`_ can also be written as _`n`&#189;_. So, to achieve root you can use `Math.sqrt` and `Math.cbrt` or just use `Math.pow(x, y)`, where y lies between 0 and 1.
 
@@ -88,7 +92,7 @@ The very separate example is exponential. You can use `Math.pow(e, x)` or `Math.
 
 Main purpose of rounding function is to return a value with fixed signs after dot. Actually, there are several rounding functions:
 
-* `Math.floor(x)` always returns the low integer bound of x 
+* `Math.floor(x)` always returns the low integer bound of x
 * `Math.round(x)` returns a low bound or a high bound depending on what is 'closer' to original x
 * `Math.ceil(x)` always returns the high integer bound of x
 * `Number.toFixed(x)` uses round function and cuts a number to x signs after dot.
@@ -116,6 +120,7 @@ Well, we're at the very end. Trust me! But ♂ass♂ well it's the hardest part 
 Good news end at this step. At this paragraph.
 
 Firstly, you still need to remember the list of functions to call. It is quite big:
+
 * `Math.sin(x)`
 * `Math.cos(x)`
 * `Math.tan(x)`
@@ -130,7 +135,8 @@ Secondly, you need to remember that x represents an angle not in degrees, but in
 
 <math-trigonometry />
 
-## Sources: 
+## Sources
+
 * [Math article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
 * [Operators article](https://javascript.info/operators)
-* [Documentation of everything standard in js](https://developer.mozilla.org/) 
+* [Documentation of everything standard in js](https://developer.mozilla.org/)
