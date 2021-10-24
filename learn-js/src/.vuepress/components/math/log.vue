@@ -3,8 +3,10 @@
     <p
       class="codepen"
       data-height="300"
+      data-theme-id="light"
       data-default-tab="js,result"
       data-slug-hash="BadpxjV"
+      data-editable="true"
       data-user="germanmetall"
       style="
         height: 300px;
