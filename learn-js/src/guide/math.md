@@ -10,15 +10,15 @@ This article discusses only the basic parts on the level of 11-th school (lyceum
 
 In programming we use different terms to describe different types of decimal numbers, for example:
 
-* Integers are floating-point numbers without a fraction. They can either be positive or negative, e.g. `10`, `400`, or `-5`.
-* Floating point numbers (floats) have decimal points and decimal places, for example `12.5`, and `56.7786543`.
-* Doubles are a specific type of floating point number that have greater precision than standard floating point numbers (meaning that they are accurate to a greater number of decimal places).
+- Integers are floating-point numbers without a fraction. They can either be positive or negative, e.g. `10`, `400`, or `-5`.
+- Floating point numbers (floats) have decimal points and decimal places, for example `12.5`, and `56.7786543`.
+- Doubles are a specific type of floating point number that have greater precision than standard floating point numbers (meaning that they are accurate to a greater number of decimal places).
 
 We even have different types of number systems! Usually, when we write a number, `1011`, we don't specify the base. But we can do this both in real life (`1011`&#x2082;) and in ~~fantasy life~~ programming (`0b1011`). Decimal is base 10 (meaning it uses 0–9 in each column), but we also have things like:
 
-* Binary — The lowest level language of computers; 0s and 1s. Example: `0b1101`
-* Octal — Base 8, uses 0–7 in each column. Example: `0o27`
-* Hexadecimal — Base 16, uses 0–9 and then a–f in each column. You may have encountered these numbers before when setting colors. Example: `0xff`
+- Binary — The lowest level language of computers; 0s and 1s. Example: `0b1101`
+- Octal — Base 8, uses 0–7 in each column. Example: `0o27`
+- Hexadecimal — Base 16, uses 0–9 and then a–f in each column. You may have encountered these numbers before when setting colors. Example: `0xff`
 
 And, of course, due to some things there are some unexpected values. For example, if user inputs not a number in a prompt form. But we want to use this value as a number. Yes, it's `NaN` in JS.
 
@@ -34,7 +34,7 @@ Well, _phew_, we have discussed numbers! Wait, is a number this string: `'123'`?
 
 > ### Jokes are good, aren't they?
 
-> This is one of the most valuable topics in JS. It produces so many jokes. _A lot of jokes_. ___TELL ME ONCE AGAIN ABOUT `'1' + 1`___
+> This is one of the most valuable topics in JS. It produces so many jokes. _A lot of jokes_. **_TELL ME ONCE AGAIN ABOUT `'1' + 1`_**
 >
 > ### (c) Herman Mossur
 
@@ -86,16 +86,16 @@ The very separate example is exponential. You can use `Math.pow(e, x)` or `Math.
 >
 > You can also use operator `**` to achive the same result as `Math.pow(x, y)`. Just `5 ** 3`. Easy. And _lazy_.
 
-***But beware!*** Whilst computing not integer numbers you can meet strange values like `0.1 + 0.2 = 0.30000000000000004`. I can highly recommend you using some rounding functions to get really expected answer like `0.3`.
+**_But beware!_** Whilst computing not integer numbers you can meet strange values like `0.1 + 0.2 = 0.30000000000000004`. I can highly recommend you using some rounding functions to get really expected answer like `0.3`.
 
 ## Rounding functions
 
 Main purpose of rounding function is to return a value with fixed signs after dot. Actually, there are several rounding functions:
 
-* `Math.floor(x)` always returns the low integer bound of x
-* `Math.round(x)` returns a low bound or a high bound depending on what is 'closer' to original x
-* `Math.ceil(x)` always returns the high integer bound of x
-* `Number.toFixed(x)` uses round function and cuts a number to x signs after dot.
+- `Math.floor(x)` always returns the low integer bound of x
+- `Math.round(x)` returns a low bound or a high bound depending on what is 'closer' to original x
+- `Math.ceil(x)` always returns the high integer bound of x
+- `Number.toFixed(x)` uses round function and cuts a number to x signs after dot.
 
 <math-round />
 
@@ -121,13 +121,13 @@ Good news end at this step. At this paragraph.
 
 Firstly, you still need to remember the list of functions to call. It is quite big:
 
-* `Math.sin(x)`
-* `Math.cos(x)`
-* `Math.tan(x)`
-* `Math.asin(x)`
-* `Math.acos(x)`
-* `Math.atan(x)`
-* `Math.atan2(x, y)` - _oh my, second arctangent_. Well, it returns the angle in the plane (in radians) between the positive x-axis and the ray from (0,0) to the point (x,y), for Math.atan2(y,x). You may better understang it with this image:
+- `Math.sin(x)`
+- `Math.cos(x)`
+- `Math.tan(x)`
+- `Math.asin(x)`
+- `Math.acos(x)`
+- `Math.atan(x)`
+- `Math.atan2(x, y)` - _oh my, second arctangent_. Well, it returns the angle in the plane (in radians) between the positive x-axis and the ray from (0,0) to the point (x,y), for Math.atan2(y,x). You may better understang it with this image:
 
 ![Atan2 image](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2/atan2.png "Atan2 image")
 
@@ -137,6 +137,6 @@ Secondly, you need to remember that x represents an angle not in degrees, but in
 
 ## Sources
 
-* [Math article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
-* [Operators article](https://javascript.info/operators)
-* [Documentation of everything standard in js](https://developer.mozilla.org/)
+- [Math article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
+- [Operators article](https://javascript.info/operators)
+- [Documentation of everything standard in js](https://developer.mozilla.org/)
