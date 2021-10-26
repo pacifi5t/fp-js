@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Presentation"
         mc:Ignorable="d"
-        Title="MainWindow" Height="570" Width="500"
+        Title="MainWindow"
+        Height="570"
+        Width="510"
         ResizeMode="NoResize">
   <Grid>
     <Grid.RowDefinitions>
       <RowDefinition></RowDefinition>
-      <RowDefinition Height="500px"></RowDefinition>
+      <RowDefinition Height="500"></RowDefinition>
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
       <ColumnDefinition></ColumnDefinition>
@@ -19,8 +21,8 @@
     </Grid.ColumnDefinitions>
     <Button Grid.Column="0" Cursor="Hand" Click="BuildPlot1">Plot #1</Button>
     <Button Grid.Column="1" Cursor="Hand" Click="BuildPlot2">Plot #2</Button>
-    <Button Grid.Column="2" Cursor="Hand" Click="BuildPlot3">Plot #2</Button>
-    <Canvas Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Name="_canvas">
+    <Button Grid.Column="2" Cursor="Hand" Click="BuildPlot3">Plot #3</Button>
+    <Canvas ZIndex="-1" Width="500" Height="500" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Name="_canvas">
     </Canvas>
   </Grid>
 </Window>
