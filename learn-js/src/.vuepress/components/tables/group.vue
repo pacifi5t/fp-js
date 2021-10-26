@@ -8,7 +8,16 @@
       data-slug-hash="QWMvgRO"
       data-editable="true"
       data-user="antonburchak"
-      style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+      style="
+        height: 300px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid;
+        margin: 1em 0;
+        padding: 1em;
+      "
     >
       <span>
         See the Pen{" "}
@@ -23,4 +32,4 @@
       src="https://cpwebassets.codepen.io/assets/embed/ei.js"
     ></script>
   </div>
-</template>;
+</template>
