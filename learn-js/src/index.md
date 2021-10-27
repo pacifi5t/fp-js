@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /js_logo.png
 tagline: 
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by  with ❤️
+- title: Mathematics
+  details: Everybody loves math!
+- title: Plots
+  details: Visualize your data with ease
+- title: Tables
+  details: Not only console.table()
+footer: Made by PZ-18 with ❤️
 ---
