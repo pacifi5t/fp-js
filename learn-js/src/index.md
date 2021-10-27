@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /js_logo.png
 tagline: 
 actionText: Quick Start →
 actionLink: /guide/
@@ -11,5 +11,5 @@ features:
   details: Feature 2 Description
 - title: Feature 3 Title
   details: Feature 3 Description
-footer: Made by  with ❤️
+footer: Made by PZ-18 with ❤️
 ---
