@@ -19,20 +19,26 @@
         {{ question.trueVariantText }}
       </p>
       <p v-else-if="question.selectedVariant == null"></p>
-      <p v-else class="false-answer">Ответ неправильный</p>
+      <p v-else class="false-answer">Wrong answer</p>
     </div>
   </div>
 </template>
 <script type="module">
-const plotsQuiz = require("./quizes-texts/plots-quiz.js");
+const plotsQuiz = require("./quizes-texts/plots-quiz.json");
+const mathQuiz = require("./quizes-texts/math-quiz.json");
 module.exports = {
   props: ["questions"],
+  localQuestionList: null,
   methods: {
-    assignQuiz() {
-      var quest;
-      switch (this.questions) {
+    assignQuiz(q) {
+      let quest;
+      switch (q) {
         case "plots":
           quest = plotsQuiz.questions;
+          break;
+        case "math":
+          quest = mathQuiz.questions;
+          break;
         default:
           break;
       }
@@ -41,7 +47,7 @@ module.exports = {
   },
   data: function () {
     return {
-      questionsList: this.assignQuiz()
+      questionsList: this.assignQuiz(this.questions)
     };
   }
 };

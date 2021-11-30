@@ -1,0 +1,123 @@
+{
+  "questions": [
+    {
+      "text": "Which html do we use to draw?",
+      "trueVariant": 2,
+      "trueVariantText": "Yes, we use <canvas to perform our operations>",
+      "selectedVariant": null,
+      "variants": [
+        {
+          "text": "<picture-box>",
+          "value": 1
+        },
+        {
+          "text": "<canvas>",
+          "value": 2
+        },
+        {
+          "text": "<document>",
+          "value": 3
+        },
+        {
+          "text": "<draw-field>",
+          "value": 4
+        }
+      ]
+    },{
+      "text": "Which method does not exist in native js for drawing?",
+      "trueVariant": 4,
+      "trueVariantText": "Why do you need fillSquare when you have fillRectangle?",
+      "selectedVariant": null,
+      "variants": [
+        {
+          "text": "arc",
+          "value": 1
+        },
+        {
+          "text": "ellipse",
+          "value": 2
+        },
+        {
+          "text": "fillRect",
+          "value": 3
+        },
+        {
+          "text": "fillSquare",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "How do we use our context to render new object on screen",
+      "trueVariant": 3,
+      "trueVariantText": "True!",
+      "selectedVariant": null,
+      "variants": [
+        {
+          "text": "ctx.refresh();",
+          "value": 1
+        },
+        {
+          "text": "ctx.render();",
+          "value": 2
+        },
+        {
+          "text": "ctx.stroke();",
+          "value": 3
+        },
+        {
+          "text": "js automatically renders everything",
+          "value": 4
+        }
+      ]
+    },
+     {
+      "text": "What is strokeStyle for?",
+      "trueVariant": 1,
+      "trueVariantText": "We can only change color with it",
+      "selectedVariant": null,
+      "variants": [
+        {
+          "text": "for changing color",
+          "value": 1
+        },
+        {
+          "text": "for changing thickness of line",
+          "value": 2
+        },
+        {
+          "text": "for changing density",
+          "value": 3
+        },
+        {
+          "text": "variant 1 and 2",
+          "value": 4
+        }
+      ]
+    },
+     {
+      "text": "Choose wrong statement agout moveTo and lineTo methods",
+      "trueVariant": 2,
+      "trueVariantText": "Who could even believe in this",
+      "selectedVariant": null,
+      "variants": [
+        {
+          "text": "moveTo changes position of our 'hidden cursor' on canvas",
+          "value": 1
+        },
+        {
+          "text": "moveTo changes position of our objects on canvas",
+          "value": 2
+        },
+        {
+          "text": "lineTo draws a line to the input coordinates",
+          "value": 3
+        },
+        {
+          "text": "variant 1 and 2 are wrong",
+          "value": 4
+        }
+      ]
+    }
+  ]
+}

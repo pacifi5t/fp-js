@@ -135,6 +135,9 @@ Secondly, you need to remember that x represents an angle not in degrees, but in
 
 <math-trigonometry />
 
+## Quiz
+<quizes-quiz-component questions ="math" />
+
 ## Sources
 
 - [Math article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
