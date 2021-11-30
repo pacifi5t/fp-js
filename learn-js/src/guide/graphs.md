@@ -1,3 +1,4 @@
+
 # Plots in JavaScript
 
 ## What are graphics
@@ -73,6 +74,9 @@ You can also build some functions with it! Here is the example
 And how to use rectangle primitive for building bar plots
 
 <plots-legend-example />
+
+## Quiz
+<quizes-quiz-component questions ="plots" />
 
 ## Materials
 
