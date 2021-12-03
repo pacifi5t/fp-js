@@ -20,8 +20,8 @@ module.exports = {
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
-    ],
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
+    ]
   ],
 
   /**
@@ -33,20 +33,20 @@ module.exports = {
     nav: [
       {
         text: "Home",
-        link: "/",
+        link: "/"
       },
       {
         text: "Guide",
-        link: "/guide/",
+        link: "/guide/"
       },
       {
         text: "User manual",
-        link: "/user-manual.md",
+        link: "/user-manual.md"
       },
       {
         text: "GitHub",
-        link: "https://github.com/pacifi5t/fp-js",
-      },
+        link: "https://github.com/pacifi5t/fp-js"
+      }
     ],
 
     sidebar: [
@@ -58,18 +58,32 @@ module.exports = {
           "/guide/codepen-example",
           "/guide/graphs",
           "/guide/tables",
-          "/guide/math",
-        ],
+          "/guide/math"
+        ]
       },
       {
         title: "User manual",
-        path: "/user-manual",
-      },
-    ],
+        path: "/user-manual"
+      }
+    ]
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+  plugins: [
+    [
+      "register-components",
+      {
+        components: [
+          {
+            name: "quizes-quiz-component",
+            path: "src/.vuepress/components/quizes/quiz-component.vue"
+          }
+        ]
+      }
+    ],
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom"
+  ]
 };
