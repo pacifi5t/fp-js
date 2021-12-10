@@ -1,0 +1,220 @@
+{
+    "questions": [
+        {
+            "text": "What is the opening tag of the table creation?",
+            "trueVariant": 3,
+            "trueVariantText": "The opening tag to create a table is <table>.",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "<td>",
+                    "value": 1
+                },
+                {
+                    "text": "<title>",
+                    "value": 2
+                },
+                {
+                    "text": "<table>",
+                    "value": 3
+                },
+                {
+                    "text": "<tr>",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "text": "What is the opening tag of the row creation in the table?",
+            "trueVariant": 4,
+            "trueVariantText": "The opening tag of row creation in the table is <tr>.",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "<td>",
+                    "value": 1
+                },
+                {
+                    "text": "<title>",
+                    "value": 2
+                },
+                {
+                    "text": "<table>",
+                    "value": 3
+                },
+                {
+                    "text": "<tr>",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "text": "What is the opening tag for creating a cell in a table?",
+            "trueVariant": 1,
+            "trueVariantText": "The opening tag to create a cell in a table is <td>.",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "<td>",
+                    "value": 1
+                },
+                {
+                    "text": "<title>",
+                    "value": 2
+                },
+                {
+                    "text": "<th>",
+                    "value": 3
+                },
+                {
+                    "text": "<tr>",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "text": "What CAN'T be the attributes of the tag <table>?",
+            "trueVariant": 4,
+            "trueVariantText": "'text' cannot be an attribute of the <table> tag",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "width",
+                    "value": 1
+                },
+                {
+                    "text": "align",
+                    "value": 2
+                },
+                {
+                    "text": "border",
+                    "value": 3
+                },
+                {
+                    "text": "text",
+                    "value": 4
+                }
+            ]
+        },  
+        {
+            "text": "How does the <th> tag differ from the <td> tag?",
+            "trueVariant": 1,
+            "trueVariantText": "The <td> tag describes the usual cell, and the <th> tag describes the header cell",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "The <td> tag describes the usual cell, and the <th> tag describes the header cell",
+                    "value": 1
+                },
+                {
+                    "text": "Tag <th> describes the usual picture, and tag <td> - the title picture",
+                    "value": 2
+                },
+                {
+                    "text": "The <th> tag specifies the heading for the whole table, and the <td> tag - for a cell",
+                    "value": 3
+                },
+                {
+                    "text": "These tags are of equal value",
+                    "value": 4
+                }
+            ]
+        },  
+        {
+            "text": "It is necessary to combine three rows in a typical cell. Which variant is correct?",
+            "trueVariant": 3,
+            "trueVariantText": "To merge rows we must use 'rowspan'",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "<td colspan='3'>",
+                    "value": 1
+                },
+                {
+                    "text": "<th rowspan='3' colspan='3'>",
+                    "value": 2
+                },
+                {
+                    "text": "<td rowspan='3'>",
+                    "value": 3
+                },
+                {
+                    "text": "<th rowspan='3'>",
+                    "value": 4
+                }
+            ]
+        },  
+        {
+            "text": "Select the tag that allows the green table to be 300 pixels wide",
+            "trueVariant": 4,
+            "trueVariantText": "We must use the 'table' tag and its 'bgcolor' and 'width' attributes",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "<table> <bgcolor='#00ff00' width='300'>",
+                    "value": 1
+                },
+                {
+                    "text": "<tr bgcolor='#00ff00' width='300'>",
+                    "value": 2
+                },
+                {
+                    "text": "<table bgcolor='#00ff00' width='300%'>",
+                    "value": 3
+                },
+                {
+                    "text": "<table bgcolor='#00ff00' width='300'>",
+                    "value": 4
+                }
+            ]
+        },  
+        {
+            "text": "To which tag is the rowspan attribute used?",
+            "trueVariant": 1,
+            "trueVariantText": "The 'rowspan' attribute is used with the 'th' and 'td' tags",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "<th>",
+                    "value": 1
+                },
+                {
+                    "text": "<title>",
+                    "value": 2
+                },
+                {
+                    "text": "<table>",
+                    "value": 3
+                },
+                {
+                    "text": "<tr>",
+                    "value": 4
+                }
+            ]
+        },  
+        {
+            "text": "What formatting is automatically applied to the content of the <th> tag?",
+            "trueVariant": 1,
+            "trueVariantText": "Bold style and center alignment are set by default",
+            "selectedVariant": null,
+            "variants": [
+                {
+                    "text": "bold",
+                    "value": 1
+                },
+                {
+                    "text": "italics",
+                    "value": 2
+                },
+                {
+                    "text": "captioned",
+                    "value": 3
+                },
+                {
+                    "text": "top edge alignment",
+                    "value": 4
+                }
+            ]
+        }
+    ]
+}
