@@ -94,6 +94,9 @@ Tables also have a lot of html-attributes, that can helps with stylization. In n
 | summary     | A summary of the table.                                       |
 | width       | The width of the table.                                       |
 
+## Quiz
+<quizes-quiz-component questions ="tables" />
+
 ## Sources
 
 - [Htmlbook](http://htmlbook.ru/html/table)

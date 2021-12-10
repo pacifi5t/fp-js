@@ -26,6 +26,7 @@
 <script type="module">
 const plotsQuiz = require("./quizes-texts/plots-quiz.json");
 const mathQuiz = require("./quizes-texts/math-quiz.json");
+const tablesQuiz = require("./quizes-texts/tables-quiz.json");
 module.exports = {
   props: ["questions"],
   localQuestionList: null,
@@ -38,6 +39,9 @@ module.exports = {
           break;
         case "math":
           quest = mathQuiz.questions;
+          break;
+        case "tables":
+          quest = tablesQuiz.questions;
           break;
         default:
           break;
