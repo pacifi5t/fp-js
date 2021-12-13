@@ -8,10 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="CanvasContext.fs" />
-    <Compile Include="PlotBuilder3.fs" />
-    <Compile Include="PlotBuilder2.fs" />
-    <Compile Include="PlotBuilder1.fs" />
+    <Compile Include="Controller.fs" />
   </ItemGroup>
 
 </Project>
