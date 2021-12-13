@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Controller.fs" />
+    <Compile Include="Delete.fs" />
+    <Compile Include="Insert.fs" />
+    <Compile Include="Clear.fs" />
+    <Compile Include="Build.fs" />
   </ItemGroup>
 
 </Project>

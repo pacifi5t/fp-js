@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Controls;
 using Core;
  
 using System.Data;
@@ -8,72 +10,52 @@ namespace Presentation
 {
   public partial class MainWindow : Window
   {
+    List<TextBox> textBoxes = new List<TextBox>();
     public MainWindow()
     {
-      InitializeComponent();
-      Build(this, EventArgs.Empty);
+         InitializeComponent();
+         Build(this, EventArgs.Empty);
+         
+         textBoxes.Add(textBox1);
+         textBoxes.Add(textBox2);
+         textBoxes.Add(textBox3);
+         textBoxes.Add(textBox4);
     }
+
     DataTable dt;
+    DataRow dr;
+
     private void Build(object sender, EventArgs e)
     {
-            dt = new DataTable("emp");
+         dt = new DataTable("emp");
 
-            DataColumn dc1 = new DataColumn("id", typeof(int));
+         BuildController.Build(dt);
 
-            DataColumn dc2 = new DataColumn("name", typeof(string));
-
-            DataColumn dc3 = new DataColumn("email", typeof(string));
-
-            DataColumn dc4 = new DataColumn("city", typeof(string));
-
-            dt.Columns.Add(dc1);
-
-            dt.Columns.Add(dc2);
-
-            dt.Columns.Add(dc3);
-
-            dt.Columns.Add(dc4);
-
-            dataGrid1.ItemsSource = dt.DefaultView;
-            /* Controller.Build(dt);*/
-        }
-    DataRow dr;
+         dataGrid1.ItemsSource = dt.DefaultView;
+    }
+     
     private void insertData_Click(object sender, RoutedEventArgs e)
     {
-        dr = dt.NewRow();
-
-        dr[0] = int.Parse(textBox1.Text);
-
-        dr[1] = textBox2.Text;
-
-        dr[2] = textBox3.Text;
-
-        dr[3] = textBox4.Text;
-
-        dt.Rows.Add(dr);
-
+        InserController.Insert(textBoxes, dt);
+     
         dataGrid1.ItemsSource = dt.DefaultView;
-
-        textBox1.Focus();
     }
     private void clearTextBox_Click(object sender, RoutedEventArgs e)
     {
-        textBox1.Clear();
-
-        textBox2.Clear();
-
-        textBox3.Clear();
-
-        textBox4.Clear();
+        ClearController.Clear(textBoxes);
     }
 
     private void deleteData_Click(object sender, RoutedEventArgs e)
     {
         dataGrid1.ItemsSource = dt.DefaultView;
-
-        dt.Rows.Remove(dr);
-
-            textBox1.Focus();
+        
+        try
+        {
+            dt.Rows.Remove(dr);
+        }
+         catch { 
+            
+        }
     }
   }
 }
