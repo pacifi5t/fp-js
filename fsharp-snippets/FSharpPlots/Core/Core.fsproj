@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="CanvasContext.fs" />
+    <Compile Include="PlotBuilder3.fs" />
+    <Compile Include="PlotBuilder2.fs" />
+    <Compile Include="PlotBuilder1.fs" />
+  </ItemGroup>
+
+</Project>
