@@ -36,7 +36,8 @@ namespace Presentation
      
     private void insertData_Click(object sender, RoutedEventArgs e)
     {
-        InserController.Insert(textBoxes, dt);
+        dr = dt.NewRow();
+        InserController.Insert(textBoxes, dt, dr);
      
         dataGrid1.ItemsSource = dt.DefaultView;
     }
@@ -48,14 +49,7 @@ namespace Presentation
     private void deleteData_Click(object sender, RoutedEventArgs e)
     {
         dataGrid1.ItemsSource = dt.DefaultView;
-        
-        try
-        {
             dt.Rows.Remove(dr);
-        }
-         catch { 
-            
-        }
     }
   }
 }
